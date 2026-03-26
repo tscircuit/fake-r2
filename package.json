@@ -1,0 +1,22 @@
+{
+  "name": "fake-r2",
+  "version": "0.0.0",
+  "description": "Fake R2 API fixture for testing",
+  "type": "module",
+  "module": "lib/index.ts",
+  "types": "lib/index.ts",
+  "files": ["lib"],
+  "scripts": {
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit",
+    "formatcheck": "bunx biome check .",
+    "format": "bunx biome check --write ."
+  },
+  "devDependencies": {
+    "@aws-sdk/client-s3": "^3.1018.0",
+    "@aws-sdk/s3-request-presigner": "^3.1018.0",
+    "@biomejs/biome": "^1.9.4",
+    "bun-types": "^1.2.0",
+    "typescript": "^5.8.0"
+  }
+}

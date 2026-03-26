@@ -1,0 +1,5 @@
+[install]
+saveTextLockfile = false
+
+[install.lockfile]
+save = false
