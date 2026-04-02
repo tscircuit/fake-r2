@@ -5,7 +5,7 @@ In-memory fake R2/S3 fixture for tests.
 ## Install
 
 ```bash
-bun install
+bun install @tscircuit/fake-r2
 ```
 
 ## Run tests
