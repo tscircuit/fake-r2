@@ -1,6 +1,6 @@
 {
-  "name": "fake-r2",
-  "version": "0.0.0",
+  "name": "@tscircuit/fake-r2",
+  "version": "0.0.1",
   "description": "Fake R2 API fixture for testing",
   "type": "module",
   "module": "lib/index.ts",
