@@ -4,3 +4,5 @@ bun.lockb
 .cursor
 .DS_Store
 coverage
+
+dist/*
