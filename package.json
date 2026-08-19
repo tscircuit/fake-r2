@@ -1,6 +1,10 @@
 {
   "name": "@tscircuit/fake-r2",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tscircuit/fake-r2"
+  },
   "description": "Fake R2 API fixture for testing",
   "type": "module",
   "module": "lib/index.ts",
